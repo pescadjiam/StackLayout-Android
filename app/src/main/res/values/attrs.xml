@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StackLayout">
+        <attr name="spacing" format="integer"/>
+        <attr name="android:orientation"/>
+        <attr name="distribution" format="enum">
+            <enum name="fill" value="0" />
+            <enum name="fill_equally" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
